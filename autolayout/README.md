@@ -1,0 +1,3 @@
+#自动布局
+
+UIView里有一个 Intrinsic Size 属性,让我们可以在不知道UIView尺寸的前提下设置一个预估的高值或宽值,这对于ScrollView组件的布局非常有用。
