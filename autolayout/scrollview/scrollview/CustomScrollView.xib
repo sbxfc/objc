@@ -24,7 +24,7 @@
                                         <constraint firstAttribute="height" constant="300" id="01l-Ry-4bw"/>
                                     </constraints>
                                 </view>
-                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="300" translatesAutoresizingMaskIntoConstraints="NO" id="EqZ-bP-bbM" userLabel="TopView">
+                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="300" translatesAutoresizingMaskIntoConstraints="NO" id="EqZ-bP-bbM" userLabel="TopView">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
                                     <color key="backgroundColor" red="0.2172456068883811" green="0.6043391717502935" blue="0.61530671296296302" alpha="1" colorSpace="calibratedRGB"/>
                                 </view>

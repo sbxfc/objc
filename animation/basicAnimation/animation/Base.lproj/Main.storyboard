@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="presentation layer:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxn-Ie-IhY" userLabel="label1">
+                                <rect key="frame" x="16" y="0.0" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="model layer:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-Lp-prv" userLabel="label2">
+                                <rect key="frame" x="16" y="31" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="layer:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwy-G0-9cA" userLabel="label3">
+                                <rect key="frame" x="16" y="62" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Uwy-G0-9cA" firstAttribute="top" secondItem="WJD-Lp-prv" secondAttribute="bottom" constant="10" id="0PD-oF-bpS"/>
+                            <constraint firstItem="gxn-Ie-IhY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3Or-JS-LFP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uwy-G0-9cA" secondAttribute="trailing" id="89T-tG-aDf"/>
+                            <constraint firstItem="gxn-Ie-IhY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="P67-zI-JKN"/>
+                            <constraint firstItem="WJD-Lp-prv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="P94-xA-884"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gxn-Ie-IhY" secondAttribute="trailing" id="l5w-7Q-dU1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WJD-Lp-prv" secondAttribute="trailing" id="rK3-hM-BBv"/>
+                            <constraint firstItem="WJD-Lp-prv" firstAttribute="top" secondItem="gxn-Ie-IhY" secondAttribute="bottom" constant="10" id="rMj-U7-iKR"/>
+                            <constraint firstItem="Uwy-G0-9cA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uqR-Yh-QIQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="gxn-Ie-IhY" id="I2Z-X6-oUf"/>
+                        <outlet property="label2" destination="WJD-Lp-prv" id="UOg-Gn-Huh"/>
+                        <outlet property="label3" destination="Uwy-G0-9cA" id="z2s-xZ-94z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
